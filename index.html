@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Prices</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Crypto Prices</h1>
+    </header>
+
+    <!-- Main Crypto -->
+    <main>
+        <div class="controls">
+            <select id="currency">
+                <option value="usd" selected>USD</option>
+                <option value="eur">EUR</option>
+                <option value="mxn">MXN</option>
+            </select>
+            
+            <button id="update-prices">Update Prices</button>
+        </div>
+
+        <div id="crypto-list" class="crypto-list">
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
